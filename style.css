@@ -1,22 +1,29 @@
-/* height: 30px; */
-/* width: 200px; - section style */
+
 
 * {
   margin: 0px;
   padding: 0px;
 }
 body {
-  background-color: khaki;
+  background-color: whitesmoke;
 }
 body h2 {
   display: flex;
   justify-content: center;
-  background-color: lightgoldenrodyellow;
+  background: #cb416b;
+  height: 50px;
+  align-items: center;
+  gap: 20px;
 }
+
+h2 span{
+  display: flex;
+}
+
 .container {
   display: block;
   margin: auto;
-  width: 62%;
+  width: 86%;
 }
 
 .toolbar {
@@ -36,35 +43,14 @@ body h2 {
   font-family: sans-serif;
 }
 
-.heading-font-color {
-  font-size: 1rem;
-  font-family: sans-serif;
-}
-
-.text-font-color {
-  border: 2px solid black;
-  margin: 10px 0px 0px 0px;
-  height: 20px;
-  padding: 3px;
-}
-
 #font-case {
-  width: 180px;
+  width: 210px;
   height: 38px;
   border: 2px solid black;
   font-family: sans-serif;
   font-size: 15px;
 }
 
-.font-strech {
-  border: none;
-  border-radius: 4px;
-  margin: 0px 2px;
-  padding: 8px;
-  font-size: 0.9rem;
-  background: #cb416b;
-  color: white;
-}
 .color-picker {
   display: block;
 }
@@ -72,18 +58,22 @@ body h2 {
   width: 10rem;
   border-radius: 1rem;
 }
+
+.styled-content{
+  margin: 0px 0px 0px 2px;
+}
 .document-textarea {
   position: relative;
-  top: 45px;
+  top: 85px;
 }
 
 #main-textarea {
   border: 2px solid black;
   padding: 7px;
   resize: none;
-  width: 605px;
-  font-size: 15px;
-  height: 311px;
+  width: 835px;
+  font-size: 17px;
+  height: 300px;
 }
 
 .text-font-color:hover {
