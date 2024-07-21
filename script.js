@@ -78,15 +78,15 @@ function textJustify() {
 
 // function for bold text
 function textBold() {
-    target.style.fontWeight = "bold";
+    target.classList.toggle('bold');
 } 
 
 // function for italic text
 function textItalic() {
-    target.style.fontStyle = "italic";
+    target.classList.toggle('italic');
 }
 
 // function for underline text
 function textUnderline() {
-    target.style.textDecoration = "underline";
+    target.classList.toggle('underline');
 }
